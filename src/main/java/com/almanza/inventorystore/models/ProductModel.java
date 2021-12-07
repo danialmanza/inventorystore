@@ -1,4 +1,4 @@
-package com.almanza.inventorystore.controller.dto;
+package com.almanza.inventorystore.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductDTO {
+public class ProductModel {
   private Integer id;
   private String brand;
   private String color;
